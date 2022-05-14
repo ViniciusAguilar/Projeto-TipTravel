@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Travel - A Rede Social de Viagens</title>
+  <!--link dos icons-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+  <!--Arquivos de css -->
+  <link rel="stylesheet" href="/AAP/css/pginicio.css">
+
+
+<body>
+  <nav>
+    <div class="container">
+      <h2 class="logo">
+        Tip Travel
+      </h2>
+      <div class="search-bar">
+        <i class="uil uil-search"></i>
+        <input type="search" placeholder="Procure por viagens, inspirações e projetos">
+      </div>
+      <div class="create">
+        <label class="btn btn-primary" for="create-post"> Criar
+        </label>
+        <div class="profile-photo">
+          <img src="/AAP/images/profile-1.jpg" alt="foto-de-perfil">
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </nav>
+
+  <!-------------------------------MAIN PARTE DO SITE--------------->
+  <main>
+    <div class="container">
+      <!-----------------------DIV DA ESQUERDA---------------------------->
+      <div class="left">
+        <a class="profile">
+          <div class="profile-photo">
+            <img src="/AAP/images/profile-1.jpg" alt="foto-de-perfil-1">
+          </div>
+          <div class="name-profile">
+            <h4> Guilherme Dias</h4>
+            <p class="text-muted">
+              @guidias
+          </div>
+        </a>
+        <!------------------SIDEBAR---------------------->
+        <div class="sidebar">
+          <a class="menu-item active">
+            <span><i class="uil uil-home"></i></span>
+            <h3>Home </h3>
+          </a>
+          <a class="menu-item">
+            <span><i class="uil uil-compass"></i></span>
+            <h3>Explorar </h3>
+          </a>
+          <a link href="#" class="menu-item" id="notifications">
+            <span><i class="uil uil-bell"><small class="notification-count">3+</small></i></span>
+            <h3>Notificações </h3>
+            <!------------------POPUP DE NOTIFICAÇÃO---------------------->
+            <div class="notifications-popup">
+              <!------------------NOTIFICAÇÃO 1---------------------->
+              <div>
+                <div class="profile-photo">
+                  <img src="/AAP/images/profile-2.jpg">
+                </div>
+                <div class="notification-body">
+                  <b>Jhow Silva</b> aceitou seu pedido de amizade
+                  <small class="text-muted"> 2 dias atrás</small>
+                </div>
+              </div>
+              <!------------------NOTIFICAÇÃO 2---------------------->
+              <div>
+                <div class="profile-photo">
+                  <img src="/AAP/images/profile-3.jpg">
+                </div>
+                <div class="notification-body">
+                  <b>Kelly Santos</b> comentou em sua postagem
+                  <small class="text-muted"> 3 dias atrás</small>
+                </div>
+              </div>
+
+              <!------------------NOTIFICAÇÃO 3---------------------->
+              <div>
+                <div class="profile-photo">
+                  <img src="/AAP/images/profile-4.jpg">
+                </div>
+                <div class="notification-body">
+                  <b>Marina Ester</b> gostou da sua postagem
+                  <small class="text-muted"> 5 dias atrás</small>
+                </div>
+              </div>
+
+            </div>
+          </a>
+          <a class="menu-item" id="messages-notifications">
+            <span><i class="uil uil-envelope-alt"></i></span>
+            <h3>Mensagens</h3>
+          </a>
+          <a class="menu-item">
+            <span><i class="uil uil-bookmark"></i></span>
+            <h3>Meus salvos</h3>
+          </a>
+          <a class="menu-item">
+            <span><i class="uil uil-setting"></i></span>
+            <h3>Configurações</h3>
+          </a>
+        </div>
+        <!------------------FINAL DAS NOTIFICAÇÕES---------------------->
+        <label for="create-post" class="btn btn-primary"> Create Post </label>
+      </div>
+
+
+      <!------------------DIV DO MEIO (MAIN CONTENT)---------------------->
+      <div class="middle">
+        <!------------------CRIAÇÃO DE POSTAGENS---------------------->
+        <form class="create-post">
+          <div class="profile-photo">
+            <img src="/AAP/images/profile-1.jpg">
+          </div>
+          <input type="text" placeholder="O que você está pensando, Guilherme?" id="create-post">
+          <input type="submit" value="Post" class="btn btn-primary">
+        </form>
+        <!------------------FEEDS---------------------->
+        <div class="feeds">
+          <!------------------FEED 1---------------------->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/AAP/images/profile-4.jpg" alt="foto-do-feed-1">
+                </div>
+                <div class="info">
+                  <h3>Luísa Aguiar </h3>
+                  <small>Holambra, 5 minutos atrás.</small>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="/AAP/images/feed-3.jpg" alt="post-do-feed-1">
+              </div>
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="/AAP/images/profile-1.jpg" alt="perfil-curtido1"></span>
+                <span><img src="/AAP/images/profile-12.jpg" alt="perfil-curtido2"></span>
+                <span><img src="/AAP/images/profile-15.jpg" alt="perfil-curtido3"></span>
+                <p>Curtido por <b>João Paulo</b> e mais 32 pessoas.</p>
+              </div>
+              <div class="caption">
+                <p><b>Luísa Aguiar</b> Lorem ipsum dolor sit amet. #trips</p>
+              </div>
+              <div class="comments text-muted">Visualize os comentários </div>
+            </div>
+          </div>
+
+          <!------------------FEED 2---------------------->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/AAP/images/profile-16.jpg" alt="foto-do-feed-1">
+                </div>
+                <div class="info">
+                  <h3>Ana Paula </h3>
+                  <small>Shangai, 10 minutos atrás.</small>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="/AAP/images/feed-9.jpg" alt="post-do-feed-1">
+              </div>
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="/AAP/images/profile-1.jpg" alt="perfil-curtido1"></span>
+                <span><img src="/AAP/images/profile-12.jpg" alt="perfil-curtido2"></span>
+                <span><img src="/AAP/images/profile-15.jpg" alt="perfil-curtido3"></span>
+                <p>Curtido por <b>João Paulo</b> e mais 88 pessoas.</p>
+              </div>
+              <div class="caption">
+                <p><b>Ana Paula</b> Lorem ipsum dolor sit amet. #trips</p>
+              </div>
+              <div class="comments text-muted">Visualize os comentários </div>
+            </div>
+          </div>
+          <!------------------FEED 3---------------------->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="/AAP/images/profile-18.jpg" alt="foto-do-feed-1">
+                </div>
+                <div class="info">
+                  <h3>Pedro Ferraz </h3>
+                  <small>El Dorado Falls, 12 minutos atrás.</small>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="/AAP/images/feed-5.jpg" alt="post-do-feed-1">
+              </div>
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="/AAP/images/profile-1.jpg" alt="perfil-curtido1"></span>
+                <span><img src="/AAP/images/profile-12.jpg" alt="perfil-curtido2"></span>
+                <span><img src="/AAP/images/profile-15.jpg" alt="perfil-curtido3"></span>
+                <p>Curtido por <b>João Paulo</b> e mais 32 pessoas.</p>
+              </div>
+              <div class="caption">
+                <p><b>Luísa Aguiar</b> Lorem ipsum dolor sit amet. #trips</p>
+              </div>
+              <div class="comments text-muted">Visualize os comentários </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+      <!-------------------------DIV DA DIREITA (ANÚNCIOS)--------------------->
+      <div class="right">
+        <!--IMAGEM DO ANÚNCIO E INFORMAÇÕES SOBRE-->
+        <div class="feed">
+          <div class="head">
+            <div class="photo">
+              <img src="/AAP/images/ads.png" alt="post-do-feed-1">
+              
+            </div>
+          <div class="photo">
+              <img src="/AAP/images/ADS.jpg" alt="post-do-feed-1">
+              
+            </div>
+          </div>
+        </div>
+      
+
+      </div>
+  </main>
+
+</body>
+
+</html>

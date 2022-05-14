@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" href="/AAP/css/teste.css" content ="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Dancing Script">
+        <title> Pagina incial </title>
+        <style>
+            a#perfil{width: 100%; top: 0; box-shadow:  0 0 10px #000;height: 100px;}
+            
+        </style>
+        
+
+    </head>
+
+    <body>
+        <div class = "menu">
+            <form method="POST" class ="searchbar" action="/AAP/php/search.php">
+                <input type = "text" name = "pes" id="pesid" placeholder= "search: ">
+            </form>
+                <a class = "logo" href="/AAP/php/painel.php">
+                    <img src = "/AAP/images/icon.png" width="35px" height="35px">
+                </a>
+                <div style="font-family: 'Dancing Script', serif;"> <a class = "letrero" style = "font-size: 22px;">TipTravel</a></div>
+                
+              
+                
+                  
+                 
+               <div class = "icons">
+                <a href="/AAP/php/logout.php"> <img src = "/AAP/images/logout.png" width="25px" height="25px"> </a> 
+             
+                <a class = "perfil" href="/AAP/php/pagina_perfil.php">  
+                    <?php
+                    if(!isset($_SESSION['usuario'])){
+                        session_start();
+                    }
+                    require_once('./api.php');
+                    $api = new api;
+                    $session = $_SESSION['usuario'];
+                    $api->setid($session);
+                    $api->showminiImage();?> </a>
+
+  
+          
+            <a href=> <img src = "/AAP/images/notifi.png" width="25px" height="25px"> </a> 
+            <a href = "/AAP/php/new_post.php">
+                <img src = "/AAP/images/new.png" width = "25px" height = "25px">
+            </a>
+           
+            <a href="/AAP/php/painel.php"> <img src = "/AAP/images/home.png" width="25px" height="25px"> </a>
+
+               </div>
+               
+                
+                
+                
+        </div>
+
+    </body>
+
+</html>

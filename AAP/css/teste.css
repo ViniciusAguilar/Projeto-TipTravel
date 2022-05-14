@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body 
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.css-selector {
+  font-family: 'Dancing Script', serif;
+  }
+
+.menu 
+{
+    overflow: hidden;
+    background-color: #c7d2df;
+}
+.menu a 
+{
+    float: right;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu a.logo
+{
+  margin-left: 15%;
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 7px 12px;
+  text-decoration: none;
+  
+  
+}
+.menu a.letrero
+{
+  float: left;
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 21px;
+  
+}
+
+.menu a:hover {
+    background-color: #7aa9df;
+    color: black;
+  }
+  
+.menu a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+.menu input[type=text] {
+    right: 50%;
+    position: absolute;
+    text-align: left;
+    padding: 7px;
+    padding-right: 50px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+.menu a.logo 
+{
+  float: left;
+}
+
+.icons
+{
+  margin-right: 15%;
+}
+
+.menu .searchbar form
+{
+  position: relative;
+  margin-top: 8px;
+  margin-right: 16px;
+}

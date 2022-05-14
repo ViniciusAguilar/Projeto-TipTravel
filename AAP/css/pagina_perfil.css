@@ -1,0 +1,126 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body
+{
+    background-color: #DAE2E4;
+    
+}
+
+section
+{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(1)
+{
+    color: #DAE2E4;
+}
+section:nth-child(2)
+{
+    color: #fff;
+    background: #DAE2E4;
+}
+section:nth-child(3)
+{
+    background: #fff;
+}
+section:nth-child(4)
+{
+    color: #DAE2E4;
+    background: #fff;
+}
+
+section form
+{
+    flex-direction: column;
+}
+.reveal
+{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active
+{
+    
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.postagem form
+{
+    background-color: #FFFFFF;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+form h3
+{
+    text-align: center;
+    color: #6b87a7;
+    font-size: 43;
+}
+
+
+
+.postagem form input[type = text],
+.postagem form input[type = password]
+{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+form input[type = submit]
+{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #C3CAD2;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+form a
+{
+    margin: 20px 0;
+
+}
+form label
+{
+    text-align: center;
+    color: #6b87a7;
+}
+
+.pagina
+{
+    float: right;
+    background-color: #FFFFFF;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.pagina h3
+{
+    text-align: center;
+    color: #6b87a7;
+    font-size: 43;
+}

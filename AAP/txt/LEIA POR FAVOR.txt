@@ -1,0 +1,17 @@
+Algumas instruções sobre o trabalho:
+
+    - Ainda só tem arquivos na pasta /html, /php e /css;
+    - Quando tentar criar o banco de dados na sua casa, não copie a parte de informações tipo o nome dos integrantes do grupo,
+    apenas o código mesmo; (da linha 16 para baixo pode copiar e colar tudo);
+    - A pasta de python, por enquanto não serve para nada, eu só to querendo testar algo mais para frente;
+    - Ignore o codigo geradorID.php pois foi uma tentativa de algo que ainda não funcionou.
+
+    ****IMPORTANTE*****
+
+    -Para rodar o codigo você precisa ter o xampp instalado;
+    -A pasta precisa estar na pasta do xampp em /htdocs;
+    -Antes de jogar o codigo no navegador você precisa colocar assim 'localhost/pasta/codigo.html';
+    -Em connection.php deixei os   $dbpassword = ""; $database = ""; sem nada, dai você edita e coloca o nome do seu banco
+    de dados e a sua senha do sql(se você não tiver a senha acho que é só deixar assim mesmo, dai tu testa);
+    -se der errado na hora de achar os caminhos dos codigos é só mudar o caminho nos lugares que referenciam os outros codigos
+
